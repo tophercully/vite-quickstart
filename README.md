@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+# React + Vite + Typescript + Tailwind + Prettier
+Template to spin up boilerplate for a web app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To start, run your typical vite start for dev
 
-Currently, two official plugins are available:
+`npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Then run Tailwind's watch process
 
-## Expanding the ESLint configuration
+`npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Includes a color in Tailwind called `base` which is pure grayscale values from white at base-50 to black at base-950.
+It also includes basic useful colors like `error`(red), `success`(green), `info`(blue), and `special`(purple)
