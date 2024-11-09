@@ -6,7 +6,7 @@ type PageProps = {
 
 const Page: React.FC<PageProps> = ({ children }) => {
   return (
-    <div className="flex h-screen w-screen flex-col items-center overflow-y-auto p-4 pt-0 md:p-10">
+    <div className="font-overused flex h-screen w-screen flex-col items-center overflow-y-auto p-4 pt-0 md:p-10">
       {children}
     </div>
   );

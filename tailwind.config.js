@@ -25,8 +25,8 @@ export default {
         special: "#7e22ce",
       },
       fontFamily: {
-        satoshi: [
-          "Satoshi",
+        overused: [
+          "Overused Grotesk",
           "Roboto",
           "ui-sans-serif",
           "system-ui",
