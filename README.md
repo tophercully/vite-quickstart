@@ -1,5 +1,7 @@
 ## Vite Quickstart
 
+`npm install` then `npm run dev` and you've got a running web app.
+
 This quickstart web template includes:
 
 - TypeScript
